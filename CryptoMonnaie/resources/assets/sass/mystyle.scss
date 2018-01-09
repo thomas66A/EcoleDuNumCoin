@@ -1,0 +1,37 @@
+body{
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    background-color:rgb(250, 243, 210);
+    #top{
+        background-color:gold;
+        border:solid 1px black;
+            h1{
+                font-family: sans-serif;
+                text-align:center;
+            }
+    }
+    #corps{
+        width:80%;
+        margin:auto;
+        margin-top:100px;
+        #lien{
+            width:100%;
+            text-align:center;
+            a{
+                display:block;
+                width:200px;
+                height:30px;
+                background-color:gold;
+                text-decoration:none;
+                font-family:sans-serif;
+                margin:auto;
+                border-radius:15px;
+                border:solid 1px black;
+                line-height: 30px;
+            }
+        }
+        
+    }
+}
