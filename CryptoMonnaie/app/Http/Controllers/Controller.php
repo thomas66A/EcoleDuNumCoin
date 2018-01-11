@@ -13,9 +13,6 @@ class Controller extends BaseController
 
     public function index(){
         $user = Auth::user();
-        dump($user);
-        die();
-
         return view('home');
     }
 }
