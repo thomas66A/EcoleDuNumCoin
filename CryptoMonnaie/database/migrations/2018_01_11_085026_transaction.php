@@ -13,7 +13,7 @@ class Transaction extends Migration
      */
     public function up()
     {
-        Schema::create('transaction', function (Blueprint $table){
+        Schema::create('transactions', function (Blueprint $table){
         $table->increments('id');
         $table->string('seller');
         $table->string('buyer');
@@ -29,6 +29,6 @@ class Transaction extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('transaction');
+        Schema::dropIfExists('transactions');
     }
 }

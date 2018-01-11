@@ -13,9 +13,9 @@ class Wallet extends Migration
      */
     public function up()
     {
-        Schema::create('wallet', function (Blueprint $table){
+        Schema::create('wallets', function (Blueprint $table){
         $table->increments('id');
-        $table->string('publicKey');
+        $table->string('mail');
         $table->float('total',8,4);
         $table->float('vendu',8,4);
         $table->float('acheter',8,4);
@@ -30,6 +30,6 @@ class Wallet extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('wallet');
+        Schema::dropIfExists('wallets');
     }
 }
