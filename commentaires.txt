@@ -1,0 +1,22 @@
+/************ ALFONSO COMMENTAIRES *************/
+
+Monsieur le Délégué.
+
+Tu as fait les migrations et compléter la partie avec des seed. Bravo
+
+Tu es allé jusqu'au login.
+
+Au moin tu as appris une bonne partie de la logique laravel. Il fallait encore faire les repos avec les appels en
+base de données avec les repositories. Il aurait fallu d'autres pages et url. Sans oublier les transactions.
+
+Continues à travailler et les résultats arriveront. Je pense que tu peux progresser pas mal par rapport au reste de la
+classe.
+
+J'espère que pendant le stage tu verras des choses qui puisse te permettre d'avoir la main sur du laravel ou sur un framework.
+
+Merci pour l'energie en cours et pour tes efforts.
+
+On se voit pour un whisky.
+
+A bientot monsieur!
+
